@@ -59,6 +59,12 @@
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>
         </dependency>
-
     </dependencies>
+    <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///home/marquez/mavem-rep/in</url>
+       </repository>
+   </distributionManagement>
 </project>
