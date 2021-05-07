@@ -64,7 +64,7 @@
        <repository>
          <id>internal.repo</id>
          <name>Internal repo</name>
-         <url>file:///home/marquez/mavem-rep/in</url>
+         <url>file:///home/marquez/Desktop/mavem-rep/in</url>
        </repository>
    </distributionManagement>
 </project>
