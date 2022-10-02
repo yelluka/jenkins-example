@@ -29,6 +29,6 @@ pipeline {
             steps {
               mail bcc: '', body: 'hi how are ', cc: '', from: '', replyTo: '', subject: 'jenkinsjoob ', to: 'kaparthysateesh008@gmail.com'
           }
-		}
+	}
     }
 }
