@@ -1,5 +1,7 @@
 pipeline {
     agent any
+        environment{
+	  PATH = "/usr/share/maven/bin:$PATH" 
     stages {
         stage("Git clone") {
             steps {
@@ -28,7 +30,7 @@ pipeline {
         stage("Email notification") {
             steps {
               mail bcc: '', body: 'hi how are ', cc: '', from: '', replyTo: '', subject: 'jenkinsjoob ', to: 'kaparthysateesh008@gmail.com'
-          }
+            } 
 	}
     }
 }
