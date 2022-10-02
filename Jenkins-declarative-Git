@@ -1,0 +1,10 @@
+pipeline{
+    agent any
+    stages{
+        stage("git checkout"){
+            steps{
+                git credentialsId: 'ec116c35-33bc-419a-8b03-c63159a99ddf', url: 'https://github.com/yelluka/jenkins-example.git'
+            }
+        }
+    }
+}
